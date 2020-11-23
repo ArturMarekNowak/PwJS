@@ -1,0 +1,25 @@
+{
+    "Obywatele": [
+        {
+            "PESEL": "09090912345",
+            "imie": "Jan",
+            "nazwisko": "Kowalski",
+            "adres": "Warszawa, Bobrowiecka 1, 00-728",
+            "telefon": "300400500"
+        },
+        {
+            "PESEL": "10101054321",
+            "imie": "Anzelm",
+            "nazwisko": "Bohatyrowicz",
+            "adres": "Grodno, Jablonowa 12/4, 12-345",
+            "telefon": "700800900"
+        },
+        {
+            "PESEL": "03030356789",
+            "imie": "Kara",
+            "nazwisko": "Mustafa",
+            "adres": "Wieden, Kahlenber 13, 89-000",
+            "telefon": "brak"
+        }
+    ]
+}

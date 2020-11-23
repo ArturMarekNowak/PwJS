@@ -1,6 +1,7 @@
-name = input("podaj imie: ")
-surname = input("podaj nazwisko: ")
-year = input("podaj rok urodzenia: ")
+print("Podaj imie, nazwisko oraz rok urodzenia: ", end ='' )
+rawInput = input()
 
-print("masz na imie %s %s i urodziles/as sie w roku %s" % (name, surname, year))
+rawInput = rawInput.split()
+
+print("masz na imie %s %s i urodziles/as sie w roku %s" % (rawInput[0], rawInput[1], rawInput[2]))
 
