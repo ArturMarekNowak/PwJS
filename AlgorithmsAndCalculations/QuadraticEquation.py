@@ -13,4 +13,4 @@ x1 = (b**2 + delta**(1/float(2))) / (2 * a)
 
 x2 = (b**2 - delta**(1/float(2))) / (2 * a)
 
-print("x1: %.2f, x2: %.2f" % (x1, x2))
+print("x1: %r, x2: %r" % (x1, x2))

@@ -34,15 +34,3 @@ array = [[ random.randint(0, 9) for i in range(dim) ] for j in range(dim) ]
 printArray(array)
 print(getDeterminant(array))
 
-'''
-xD = copy.deepcopy(array)
-printArray(array)
-print("-" * 20)
-printArray(xD)
-print("-" * 20)
-printArray(getMinor(xD, 1, 1 ))
-print("-" * 20)
-printArray(xD)
-print("-" * 20)
-printArray(array)
-'''

@@ -2,7 +2,6 @@ file = open("srcForFirstScript/foo.txt")
 
 text = file.read()
 print(text)
-text = text.replace(" nigdy ", " prawie nigdy ").replace(" dlaczego ", " czemu ")
 
 text = text.split()
 
@@ -11,6 +10,10 @@ for i in range(len(text)):
         text[i] = "oraz"
     elif text[i] == "oraz":
         text[i] = "i"
+    elif text[i] == "nigdy":
+        text[i] = "prawie nigdy"
+    elif text[i] == "dlaczego":
+        text[i] = "czemu"
 
 file.close()
 

@@ -36,10 +36,6 @@ print("Matrix B:")
 printMatrix(arrayB)
 print("Matrix A*B:")
 arrayC = multiplyMatrixes(arrayA, arrayB)
-print(arrayA)
-print(arrayB)
-print(arrayC)
-
 printMatrix(arrayC)
     
 

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 print("Podaj imie, nazwisko oraz rok urodzenia: ", end ='' )
 rawInput = input()
 
